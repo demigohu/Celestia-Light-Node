@@ -77,7 +77,13 @@ celestia version
 celestia light init
 ```
 
-## Save Mnemonic sama addressnya, terus ambil faucet di discordnya Celestia pake command $request walletklean
+## Save Mnemonic And address
+## and then go get faucet on discord Celestia with command
+```bash
+$request address
+```
+
+## after that run this command
 
 ```bash
 ./cel-key list --node.type light --p2p.network blockspacerace
